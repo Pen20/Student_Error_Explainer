@@ -38,7 +38,7 @@ if not openai_api_key and not gemini_api_key:
 st.sidebar.header("📝 Math Concept Instruction Inbox")
 instruction_note = st.sidebar.text_area(
     "Add optional math concept info for the LLM (e.g. formulas, notation tips):",
-    value="""Examples:
+    placeholder="""Examples:
 - cc(a,b) = [a,b], co(a,b) = [a,b)
 - 'ansa' is usually a value (e.g. radius); 'ansb' is for sketching
 - Division by zero is undefined
