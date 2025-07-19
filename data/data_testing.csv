@@ -1,0 +1,6 @@
+student_id,response,right_answer
+1,"ans1: 2/(5*t^3+4*t^2-6*t)  ans2: [t=1,t=-2,t=0]  ans_test: false  ans_yn1: true ; ans3: 2  ans4: (0,0)  ans7: 1/6  ans9: y=x/6+4  ans5: (0,4)  ans8: 2/3  ans10: y=2*x/3+1  ans6: (0,1)","ans1: (2*t)/(5*t^4+4*t^3-6*t^2)  ans2: [t = 1,t = -2,t = 0]  ans_test: false  ans_yn1: true  ans3: 1  ans4: oo(0,0)  ans7: -(1/6)  ans9: y = 4-x/6  ans5: oo(0,4)  ans8: 2/3  ans10: y = (2*x)/3+1  ans6: oo(0,1)"
+2,"ans1: x^2+y^2=9  ans2: ""Point""  ans3: ""Circle""  ansa: 2.1434664713541665  ansb: -0.2848002929687503","ans1: y^2+x^2 = 9  ans2: ""Point""  ans3: ""Circle""  ansa: 3  ansb: 0"
+2,"ans1: y=8*x^2+2*x+5  ans2: ""Point""  ans3: ""Parabola""  ans4: cc(0,5)","ans1: y = 2*x^2+x+5  ans2: ""Point""  ans3: ""Parabola""  ans4: cc(-2,2)  ansa: 2  ansb: 1  ansc: 5"
+2,ans1: t/3  ans2: 3*t^2  ans3: 7*cos(theta)^4  ans4: 0,ans1: t/3  ans2: 4*t^2  ans3: 7*cos(theta)^4  ans4: 0
+2,"ans1: 2/(5*t^3-4*t^2-18*t)  ans2: [t=0,t=-2,t=3]  ans_test: true  ans_yn1: true ; ans3: 2  ans4: (0,0)  ans7: -(1/10)  ans9: y=-(1/10)*x+4  ans5: (0,4)  ans8: 2/45  ans10: y=2/45*x-9  ans6: (0,9)","ans1: (2*t)/(5*t^4-4*t^3-18*t^2)  ans2: [t = 3,t = -2,t = 0]  ans_test: false  ans_yn1: true  ans3: 0  ans4: oo(0,0)  ans7: -(1/10)  ans9: y = 4-x/10  ans5: oo(0,4)  ans8: 2/45  ans10: y = (2*x)/45+9  ans6: oo(0,9)"

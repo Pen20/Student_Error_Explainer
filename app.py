@@ -35,10 +35,9 @@ if not openai_api_key and not gemini_api_key:
     st.warning("⚠️ Please enter at least one valid API key to proceed.")
 
 # --- Sidebar: Instruction Context ---
-st.sidebar.header("📝 Math Concept Instruction Inbox")
 instruction_note = st.sidebar.text_area(
     "Add optional math concept info for the LLM (e.g. formulas, notation tips):",
-    value="""Examples:
+    placeholder="""Examples:
 - cc(a,b) = [a,b], co(a,b) = [a,b)
 - 'ansa' is usually a value (e.g. radius); 'ansb' is for sketching
 - Division by zero is undefined
@@ -46,6 +45,7 @@ instruction_note = st.sidebar.text_area(
 """,
     height=220
 )
+
 
 # --- File Upload ---
 uploaded_file = st.file_uploader("📤 Upload CSV (columns: student_id, response, right_answer)", type="csv")
